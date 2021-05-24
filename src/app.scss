@@ -1,0 +1,26 @@
+.app {
+  height: 100vh;
+
+  .sections {
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-color: green;
+    position: relative;
+    top: 70px;
+    scroll-behavior: smooth;
+
+    > *  {
+      width: 100vw;
+      height: calc(100vh - 70px);
+    }
+
+    > :nth-child(5)  {
+      width: 100vw;
+      height: 200vh;
+    }
+  }
+}
+
+.sections::-webkit-scrollbar {
+  display: none;
+}

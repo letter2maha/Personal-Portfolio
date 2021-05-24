@@ -1,0 +1,109 @@
+.education {
+    background-color: rgb(255, 255, 255);
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    
+    h1{
+        font-size: 50px;
+    }
+    
+    .qualifications{
+        display: flex;
+        flex: 0.9;
+        background-color: rgb(219, 219, 219);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        width: 75%;
+        border-radius: 10px;
+        .cardHead{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            flex: 0.25;
+            cursor: pointer;
+            
+            // border-style: solid none solid solid;
+            .cardItem{
+                height: 100%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               
+                &.active{
+                    background-color: #fff;
+                    transition: background-color  1s ease-out;
+                    
+                }
+            }
+        }
+        
+        .cardDetails{
+            
+            display: flex;
+            flex-direction: column;
+            flex: 0.75;
+            justify-content: flex-start;
+            background-color: #fff;
+            padding: 30px;
+            
+            
+            // border-style: solid solid solid none;
+            h1{
+                
+                font-size: 20px;
+            }
+        }
+    }
+  }
+
+  .icon {
+    font-size: 16px;
+    margin-right: 5px;
+  }
+  
+  .experience-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+      .resume-heading{
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+      .main-heading{
+       
+        display: flex;
+          
+          justify-content: space-between;
+          span{
+            color: crimson;
+            font-size: 18px;
+          }
+      }}
+  }
+
+.heading-date {
+    background-color: crimson;
+    padding: 4px 12px;
+    font-size: 14px;
+    border-radius: 14px;
+    color: white;
+}
+
+.description{
+    width: 100%;
+    ul{
+        padding: 10px;
+        font-size: 12px;
+            li{
+                padding: 2px;
+                 text-align: justify;
+            }
+            
+    }
+    
+}
